@@ -1,0 +1,101 @@
+\documentclass[12pt]{scrartcl}
+
+% Font and input encoding
+\usepackage{fontspec}
+\defaultfontfeatures{Ligatures=TeX,Renderer=Basic}
+\usepackage{polyglossia}
+\setmainlanguage{russian}
+\setotherlanguage{english}
+
+% Explicitly setting fonts that support Cyrillic
+\setmainfont{CMU Serif}
+\setsansfont{CMU Sans Serif}
+\setmonofont{CMU Typewriter Text}
+
+% For math symbols
+% Include AMS packages for mathematical symbols and fonts
+\usepackage{amsmath}
+\usepackage{amssymb}
+
+% For code listings
+\usepackage{listings}
+
+% For epigraph
+\usepackage{epigraph}
+
+% For tables
+\usepackage{tabularx}
+\usepackage{placeins}
+
+% For drawing
+\usepackage{pgfplots}
+\pgfplotsset{compat=1.18}
+\usepackage{pgfplotstable}
+\usetikzlibrary{pgfplots.statistics}
+\usetikzlibrary{pgfplots.groupplots} % Load the groupplots library
+
+% For files reading
+\usepackage{filecontents}
+
+
+% Bibliography management (optional in presentation, often omitted)
+\usepackage[backend=biber]{biblatex}
+\addbibresource{references.bib} % Specify your bibliography file here
+
+% For clickable links (often less necessary in presentations)
+\usepackage{hyperref}
+
+% Settings for links (optional in presentations)
+\hypersetup{
+	colorlinks=true,
+	linkcolor=red,
+	filecolor=magenta,
+	urlcolor=cyan,
+}
+
+% Document metadata
+\title{Кризисные явления и выбор пути независимой оценки в России в 2024 году}
+\subtitle{итоги Круглого Стола Союза СРОО и НМСО, прошедшего 04 июля 2024}
+
+% Define authors
+\author{К.\,А.~Мурашев\thanks{email: kirill.murashev@gmail.com, \href{https://t.me/AIinValuation}{Telegram}}}
+
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\epigraph{\emph{Реальной проблемой человечества является то, что мы являемся обладателями эмоций эпохи Палеолита, средневековых институтов и богоподобных технологий. Это ужасающе опасно и в данный момент ведёт нас к точке общего кризиса.}
+
+    Edward O. Wilson.
+}
+
+\begin{abstract}
+04 июля 2024 состоялся Круглый стол Комитета по Научным и Методологическим Вопросам в Оценочной Деятельности Союза Саморегулируемых Организаций Оценщиков (Национальное Объединение Оценщиков) и Санкт-Петербургского Научно-Методического Совета по Оценке на тему «Кризисные явления в методологии оценки недвижимости. Источники информации в практике российской оценки. Какая информация является недостоверной в оценке рыночной стоимости». Запись и презентации выступлений размещены на сайте СРОО СПО по адресу: https://cpa-russia.org/news-spo/2750/. В данном материале представлен один из взглядов на причины проблем и предлагается набор действий для разворота сложившегося тренда на исчезновение института независимой оценки в России.
+
+\bigskip
+\textenglish{On July 04, 2024 a round-table of the Committee on Scientific and Methodological Issues in Appraisal Activities of the Union of Self-Regulatory Organizations of Appraisers (National Association of Appraisers) and the St. Petersburg Scientific and Methodological Council on Appraisal was held on the topic `''Crisis phenomena in real estate appraisal methodology. Sources of information in Russian appraisal practice. What information is unreliable in the assessment of market value''. The recordings and presentations of the speeches are available on the SROA UAP website at \href{https://cpa-russia.org/news-spo/2750/}{link}~\cite{SROO202407}. This paper presents one of the views on the causes of the problems and proposes a set of actions to reverse the current trend towards the disappearance of the institution of independent appraisal in Russia.}
+
+\end{abstract}
+
+\section{Введение}\label{sec:Introduction}
+
+
+\section{Мотивация}\label{sec:motivation}
+
+\section{Результаты}\label{sec:results}
+
+\section{Проблемы экзамена}
+
+\section{Существующие предложения}
+
+\section{Гибридная модель}\label{sec:hybrid_mpdel}
+
+
+
+
+
+\printbibliography
+
+\end{document}
